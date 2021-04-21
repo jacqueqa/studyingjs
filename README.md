@@ -1,2 +1,3 @@
 # studyingjs
-My repository to save all my studying little projects 
+Repository to save all my studying little projects with JavaScript . 
+
