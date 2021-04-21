@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<script>
+
+    var num = prompt("Digite um número de 0 a 9 para calcular a tabuada =]");
+	//Escolhi usar o laço para tentar manter um cleancode//
+    for(var tabuada = 1; 
+    	tabuada <= 10; 
+    	tabuada++) {
+    			if (num >= 10) {
+    			alert("Ops! Favor digitar um número de 0 a 9");
+    			num = prompt("Digite um número de 0 a 9 para calcular a tabuada =]");
+    		}
+        document.write(num+" vezes "+ tabuada +" é " + num * tabuada + "<br>" + "<br>");
+
+    }
+</script>
