@@ -4,17 +4,19 @@
 <button>Can you guess the number? </button>
 
 <script>
-	const number = 5;
+	let number = Math.round(Math.random()*10);
 	var input = document.querySelector("input");
 	
 	function verify() {
 
-	if(input.value == 5) {
+	if(input.value == number) {
 		alert("Right Choice :D");
 	}
 	else {
-		alert("You are wrong =( ")
+		alert("You are wrong =(")
 	}
+	input.value = "";
+	input.focus(); 
 }
 	var button = document.querySelector("button");
 
